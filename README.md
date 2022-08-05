@@ -1,5 +1,4 @@
-# BRIAN-THOMAS-02.github.io
-Brian Thomas - Portfolio
+# Brian Thomas - Portfolio
 
 
 <p>
@@ -11,10 +10,15 @@ Experience -
 
   <ul>
     <li> Data Science related Topics (Machine Learning & Deep Learning Algorithms). <br>
-    Liner Regression -  </li>
+    Liner Regression - https://www.youtube.com/watch?v=QBR3YY7kKdk</li>
     
-    <li> Hands-on Programming (Projects Included - Click Here). </li>
-    <li> Competitive Programming. </li>
+    <li> Hands-on Programming (Projects Included - Click Here). 
+      helooo
+    </li>
+    <li> Competitive Programming. 
+      laudaa lassan
+    </li>
+    
   </ul>
 </ul>
 </p>
