@@ -118,9 +118,19 @@ header{
     text-shadow: 0 0 20px #ffffff;
 }
 
+.content
+{
+    position: fixed;
+    text-align: center;
+    display: flex;
+    background-color: blanchedalmond;
+    font-size: 25px;
+    padding-left: 300px;
+    padding-top: 1000px;
+}
 
 
-.right_nav{ 
+/*.right_nav{ 
     width: 50%;
     position: relative;
     left: 160px;
@@ -454,16 +464,4 @@ header{
     font-size: 20px;
     display: flex;
     justify-content: center;
-}
-
-
-#content
-{
-    position: relative;
-    text-align: center;
-    display: flex;
-    background-color: blanchedalmond;
-    font-size: 25px;
-    padding-left: 300px;
-    padding-top: 100px;
-}
+}*/
