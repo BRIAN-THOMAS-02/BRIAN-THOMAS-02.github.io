@@ -118,9 +118,8 @@ header{
     text-shadow: 0 0 20px #ffffff;
 }
 
-.content
-{
-    position: fixed;
+.content {
+    position: relative;
     text-align: center;
     display: flex;
     background-color: blanchedalmond;
