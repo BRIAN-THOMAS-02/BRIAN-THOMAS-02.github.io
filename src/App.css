@@ -1,0 +1,148 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow: auto;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #005ae1;
+  background-image: url('/images/blue-bg.jpg');
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  background: transparent;
+  backdrop-filter: blur(25px);
+  z-index: 100;
+}
+
+.navBar p {
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: white;
+  margin: auto 0px auto 50px;
+}
+
+.navElems {
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+}
+
+.navElems button {
+  font-size: 20px;
+  color: white;
+  margin: auto auto auto 20px;
+  border-radius: 8px;
+  border: 2.5px solid transparent;
+  padding: 0.4em 1em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.navElems button:hover {
+  border-color: #646cff;
+}
+
+.navElems button:focus,
+.navElems button:focus-visible {
+  outline: 2px auto #646cff -webkit-focus-ring-color ;
+}
+
+/*.hr {
+  display: flex;
+  flex-direction: row;
+  margin: 50px auto 50px auto;
+  padding: 0;
+}
+
+.hr p {
+  margin: auto 15px auto 15px;
+  padding: 0;
+  font-size: 50px;
+  font-weight: 700;
+}*/
+
+.horizontal-line {
+  margin: 80px auto 50px auto;
+  width: 90%;
+  height: 5px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: #1a1a1a;
+  transition: all 0.3s ease-in;
+}
+
+.horizontal-line:hover {
+  border-color: #005ae1;
+}
+
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

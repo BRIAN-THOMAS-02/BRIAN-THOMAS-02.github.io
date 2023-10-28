@@ -1,0 +1,91 @@
+.projectsSection {
+    display: block;
+    margin: auto 15px auto 15px;
+}
+
+.projectsName {
+    margin: 50px auto 50px auto;
+    padding: 0;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 4px;
+}
+
+.projectsCard {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-evenly;
+    padding: 30px;
+    text-align: justify;
+}
+
+.projectCard1, .projectCard2, .projectCard3, .projectCard4 {
+    width: 20%;
+    margin: 0px 15px 0px 15px;
+    padding: 30px;
+    text-align: justify;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    box-shadow: 2px 15px 80px rgba(0, 0, 0, 0.67);
+    background-color: rgba(255, 255, 255, 0.029);
+    backdrop-filter: blur(12px);
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+
+.projectCard1:hover, .projectCard2:hover, .projectCard3:hover, .projectCard4:hover {
+    border-color: #646cff;
+    box-shadow: 2px 15px 80px rgb(0, 0, 0);
+    z-index: 1;
+}
+
+.projectCard1 h1, .projectCard2 h1, .projectCard3 h1, .projectCard4 h1 {
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.projectCard1 ul, .projectCard2 ul, .projectCard3 ul, .projectCard4 ul {
+    text-align: justify;
+    color: white;
+    font-weight: 100;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.projectLinks {
+    margin: 50px auto 20px auto;
+}
+
+.projectLinks a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.projectLinks p {
+    margin: auto auto 20px auto;
+    width: fit-content;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.029);
+    backdrop-filter: blur(12px);
+    z-index: -1;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.projectLinks p:hover {
+    border-color: #646cff;
+    /*font-weight: 500;*/
+    box-shadow: 2px 15px 50px rgba(0, 0, 0, 0.67);
+}
