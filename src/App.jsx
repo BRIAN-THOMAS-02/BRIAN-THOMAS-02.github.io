@@ -19,12 +19,6 @@ function App() {
           <a href="#contact">
             <button> Contact </button>
           </a>
-          {
-            //<Link to="https://www.google.com">Go to Google</Link>
-            //<Link href="/About"> About </Link>
-            //<Link href="/Projects"> Projects </Link>
-            //<Link href="/Contact"> Contact </Link>
-          }
         </div>
       </div>
 
